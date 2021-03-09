@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>forma</title>
+    </head>
+   <!-- Dropdown/Multiselect
+Create a page that contains three dropdown (selects) in one row
+Dropdowns are used by the user to provide the day, month and year of birth
+The page also contains multiselect box
+Multiselect box contains "categories" out of which the user can select several -->
+
+    <body>
+        <h1>Datum rodjenja</h1>
+        <form action="https://www.example.com/profile.php">
+           <p>Dan:
+              <select name="dan" size="1">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+           
+                Mesec:
+            <select name="mesec" size="1">
+                    <option value="januar">januar</option>
+                    <option value="februar">februar</option>
+                    <option value="mart">mart</option>
+                    <option value="april">april</option>
+                    <option value="maj">maj</option>
+                </select>
+                Godina:
+                <select name="godina" size="1">
+                    <option value="1984">1984</option>
+                    <option value="1985">1985</option>
+                    <option value="1986">1986</option>
+                    <option value="1987">1987</option>
+                    <option value="1988">1988</option>
+                </select>
+              </p> 
+         </form><hr>
+         <form action="https://www.example.com/profile.php">
+            <p><h1>Koji sport volis?</h1></p>
+            <select name="sport" size="3" multiple="multiple">
+                <option value="kosarka">kosarka</option>
+                <option value="fudbal">fudbal</option>
+                <option value="rukomet">rukomet</option>
+                <option value="vaterpolo">vaterpolo</option>
+            </select>
+        </form><hr>
+     <!--Reset/Button/Hidden
+Create a form that contains multiple elements (text, textarea, radio)
+At the end of the form, there are two buttons:
+The first one is a reset button used for resetting form
+The second button contains an image and text inside it (it's a submit button
+--> 
+        <h1>Reset/Button/Hidden</h1> 
+        <body>
+           <form action="https://www.example.com/login.php">
+            <p>Username:
+                <input type="text" name="username" size="15" maxlenght="30"/>
+            </p> <br>
+            <p>Sta mislis?
+                <textarea name="comments" cols="20" rows="4" placeholder="upisi ovde"></textarea>
+            </p><br>
+            <p>Pol:
+                <input type="radio" name="pol" value="muski"/>muski
+                <input type="radio" name="pol" value="zenski"/>zenski
+            </p><br>
+           
+            <input type="reset" value="reset">
+            <p>subscribe email:
+                <input type="text" name="email">
+                <input type="image" src="https://wallpaperaccess.com/full/2576246.jpg" value="subscribe" width="150">
+
+            </p>
+          </form>
+        </body>
+</html>
