@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Catering Reservations</title>
+    </head>
+    <body>
+        <h1>Catering Reservations</h1>
+        <form action="linkform.html" method="post">
+            <fieldset>
+                <legend><h2>Personal data</h2></legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="mobile">Mobile:</label>
+                <input type="text" id="mobile" name="mobile"><br><br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend><h2>Location</h2></legend>
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city"><br><br>
+                <label for="street">Street:</label>
+                <input type="text" id="street" name="street"><br><br>
+                <label for="strnumb">Street Number:</label>
+                <input type="text" id="strnumb" name="strnumb"><br><br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend><h2>Event Info</h2></legend>
+                <label for="event">Event:</label>
+                <select name="event">
+                    <option value="wedding">Wedding</option>
+                    <option value="birthday">Birthday</option>
+                    <option value="company">Company</option>
+                </select><br><br>
+                <label for="guests">Number of Expected Guests:</label>
+                <input type="text" id="guests" name="guests" placeholder="max 250">
+            </fieldset>
+            <br>
+            <input type="submit" name="submit" value="submit">
+            <input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbQVOHCeEFY4RbG1Zd2qbYtkHKr9piKCS6jg&usqp=CAU" height="50" width="300">
+        </form>
+        <br><hr><hr><br>
+        <h1>Facebook Posts Scheduling</h1>
+        <form action="linkform.html" method="get" autocomplete="on">
+            <fieldset>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" autofocus><br><br>
+                <label for="postdate">Post Date:</label>
+                <input type="date" id="postdate" name="postdate"><br><br>
+                <label for="website">Website:</label>
+                <input type="url" id="website" name="website" autocomplete="off"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+            </fieldset>
+            <br>
+            <input type="submit" name="submit" value="submit">
+            <input type="image" src="fb.jpg" width="140" height="100">
+        </form>
+    </body>
+</html>
