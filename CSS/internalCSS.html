@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal CSS</title>
+    <style>body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background: #e3f2fd;
+    }
+    
+    
+    .container {
+        width: 960px;
+        margin: 0 auto;
+    }
+    
+    
+    h1 {
+        padding: 20px 0;
+        text-align: center;
+        background: #2962ff;
+        color: white;
+    }
+    
+    
+    h2 {
+        margin-bottom: 0px;
+        padding-left: 10px;
+        text-align: left;
+        background: #2979ff;
+        color: white;
+    }
+    
+    
+    img {
+        height: 400px;
+        margin: 40px auto 40px;
+        display: block;
+    }
+    
+    
+    table {
+        width: 100%;
+        color: #333;
+        background: white;
+        border-collapse: collapse;
+    }
+    
+    
+    tr {
+        border-bottom: 1px solid #eee;
+    }
+    
+    
+    td {
+        padding: 5px 0;
+    }
+    
+    
+    td:first-child {
+        width: 300px;
+        padding-left: 10px;
+    }
+    
+    
+    p#footer {
+        margin-top: 100px;
+    }
+</style>
+    
+</head>
+<body>
+    <h1>CSS EXERCISE</h1>
+    <h2 class="container">INTERNAL CSS</h2>
+    <img src="Bit-logo.jpg">
+    <table border="1" cellspacing="40" class="container"> 
+        <tr>
+            <th>Ime</th>
+            <th>Prezime</th>
+            <th>Skola</th>
+        </tr>
+        <tr>
+            <td :first-child>Dusan</td>
+            <td>Stankovic</td>
+            <td>Srednja</td>
+        </tr>
+        <tr>
+            <td>Ognjen</td>
+            <td>Saric</td>
+            <td>Osnovna</td>
+        </tr> 
+        <tr>
+            <td colspan="2">Ognjen Saric</td>
+            
+            <td>Osnovna</td>
+        </tr>
+    </table>
+    <br><hr><hr><br>
+    <p id="footer" class="container">Lorem ipsum dolor sit amet, 
+        <q>consectetur adipiscing elit.</q> 
+        Nullam molestie 
+        <em>quam</em> sollicitudin velit maximus ullamcorper. 
+        Suspendisse sit amet nibh vel libero porta elementum non sit amet velit. 
+        Donec pharetra diam vel elit porta, sit amet congue mauris bibendum. 
+        Ut vitae tortor finibus, tincidunt purus non, facilisis felis. 
+        Nam vel dolor ac lectus dapibus finibus nec lacinia neque. 
+        Vivamus laoreet felis eget justo conse<<p>
+    <br><hr><hr><br>
+    
+    
+</body>
+</html>
