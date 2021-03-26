@@ -4,32 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>text prve 4 vezbe</title>
+    <title>text vezba</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+        @font-face {
+            font-family: "TrainOne-Regular";
+            src: url("TrainOne-Regular.ttf");
+        }
         body {
             font-size: 200%;
             font-weight: bold;
         }
         .firsth {
+            text-align: left;
+            letter-spacing: 5px;
+            text-decoration: underline ;
+            text-transform: uppercase;
             font-size: 1.5em;
             font-weight: normal;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-family: TrainOne-Regular, Georgia, Times, 'Times New Roman', serif;
         }
         .second {
+            text-align: right;
+            line-height: 200%;
+            text-decoration: line-through;
+            text-transform: lowercase;
             font-style: oblique;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: Pacifico, Helvetica, sans-serif;
         }
         .third {
+            text-align: center;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
         .a {
             quotes: "'" "'";
-            background-color: blue;
+            
             
         }
         .b {
             quotes: "*" "*";
-            opa
+            
         }
         .c {
             quotes: "<" ">";
@@ -38,6 +52,21 @@
             font-weight: normal;
             font-style: italic;
         }
+        li {
+            text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+        }
+        a:link {
+            color: red;
+        }
+        a:visited {
+            color: black;
+        }
+        a:hover {
+            color: green;
+        }
+        a:active {
+            color:blue;
+        }
 
     </style>
 </head>
@@ -45,6 +74,13 @@
     <p class  ="firsth">Lorem ipsum dolor sit amet,<q class="a"> consectetur adipiscing elit</q>. Aliquam lobortis at nisl ut maximus. Suspendisse nec scelerisque augue. Aenean commodo neque sit amet urna rutrum tincidunt. Cras ut ante maximus, lacinia nisi a, finibus metus. Maecenas sed hendrerit quam, ac aliquam urna. Phasellus ac mauris laoreet, lobortis urna vitae, tempus sapien. Donec risus mauris, placerat ut venenatis quis, blandit cursus velit. Maecenas faucibus tortor nibh, non iaculis urna venenatis eget. Donec viverra sem ut sem pellentesque gravida. Ut interdum purus nec tortor posuere, id commodo ligula dapibus. Praesent felis nunc, viverra ut neque non, imperdiet auctor tortor. Vestibulum placerat ultrices tincidunt. Suspendisse sit amet tempus nulla, vel luctus erat. Vestibulum eu metus sit amet ante auctor consequat vel eu augue</p>
     <p class = "second">Nam nec sollicitudin lacus.<q class="b"> Etiam arcu purus,</q> suscipit vel convallis porta, euismod ac ipsum. Nunc malesuada lacus massa, in accumsan purus venenatis in. Vestibulum viverra dolor quis sem cursus vulputate. Mauris vitae erat a turpis convallis mattis. Vivamus congue, sem et ornare elementum, tellus eros tempor diam, non sagittis nunc dui sit amet velit. Etiam fringilla, orci non aliquam fringilla, turpis urna sagittis ligula, at faucibus magna ipsum nec purus. Maecenas pretium imperdiet ante vel ornare. Nam lacinia massa sed pharetra varius. Cras consectetur nibh in augue efficitur blandit. Donec venenatis metus id leo egestas commodo. Ut mauris mi, tincidunt sed magna ut, sagittis rhoncus tellus. Etiam rutrum, libero non pharetra luctus, dui risus viverra orci, nec malesuada sapien nibh vitae eros. Etiam lorem sem, placerat at fringilla vel, porttitor vitae nisl. Aenean eget finibus justo, ut interdum nibh. Pellentesque vitae erat at elit volutpat consectetur sed at magna.</p>
     <p class = "third"><span>Sed placerat sed leo quis imperdiet.</span> <q class="c">Quisque at lacinia lectus</q>. Nam in dapibus ipsum. Mauris eget nisl turpis. In ultricies tellus ut mauris vulputate, quis hendrerit nisi malesuada. Nam dignissim euismod dapibus. Duis iaculis sapien sed libero mollis convallis.</p>
+    <br><hr><hr><br>
+    <ul>
+    <li><a href="https://www.wikipedia.org/">Wikipedia</a></li>
+    <li><a href="https://www.facebook.com/">Facebook</a></li>
+    <li><a href="https://www.youtube.com/">YouTube</a></li>
+    <li><a href="https://www.google.com/">Google</a></li>
+    </ul>    
     
 </body>
 </html>
