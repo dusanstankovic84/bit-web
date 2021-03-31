@@ -10,7 +10,10 @@
             color: navy;
             font-family: sans-serif;
             background-color: #eee;
+            margin: 0%;
+            padding: 0px;
         }
+        
         h1 {
           font-size: 26px; 
           font-variant: small-caps;
@@ -23,105 +26,170 @@
           border-width: 8px 0px;
           text-align: right;
         }
+        
         p {
             width: 80%;
             margin-bottom: 16px;
+            margin-left: auto;
+            margin-right: auto;
             margin-top: 0px;
             text-align: justify;
             border-style: solid;
-            border-color: #88c;
+            border-color: rgba(184, 184, 223, 0.5);
             border-width: 0px 0px 0px 10px;
             padding-left: 10px;
-            }
+        }
+
         aside {
             width: 30%;
-            position: absolute;
-            right: 0%;
             text-align: left;
             padding: 13px;
             font-size: 80%;
-            margin-right: 5px;
+            margin: 0px 5px 0px auto;
             border-style: solid;
             border-color: red;
             border-width: 2px 4px 4px 2px;
             background-color: lightyellow;
             color: red;
         }
+       
+        h3{
+            border-bottom: dotted 5px #88d ;
+            width:90%;
+            margin:0px auto;               
+        }
+        
+        table {
+            border: solid black 4px;
+            margin: 16px auto;
+            background-color: #fde;
+            border-collapse: collapse;
+        }
+        
+        td {
+            border-bottom: 2px black solid;
+            border-left: #a88 1px solid;
+            padding: 3px 9px;
+            border-collapse: collapse;
+        }
+        
+        th {
+            border-bottom: 2px black solid;
+            border-left: #a88 1px solid;
+            padding: 3px 9px;
+            border-collapse: collapse;
+        }
+        
+        .firstRow {
+            font-weight: 700;
+            color: rgb(247, 247, 179);
+            background-color: rgb(86, 36, 123);
+        }
+        
         div {
+            text-align: center;
+            font-weight: 600;
+            width: 400px;
+            margin: 16px auto;
+            padding: 10px;
             color: green;
-            background-color: rgb(215, 245, 181);
+            background-color: rgb(227, 248, 203);
+            border: double green 15px;
         }
-        li {
+        
+        ul {
+            width: 70%;
+            margin: 16px auto;
+        }
+
+        a {
             color: red;
+            font-weight: bold;
+            text-decoration: none;
         }
-        h2 {
-            border-style: dotted;
+        
+        li {
+            font-family: serif;
+            font-style: italic;
         }
+
+        .p {
+            font-weight: bold;
+        }
+
     </style>
 </head>
 <body>
     <h1>Glavni naslov</h1>
+    
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
         Nam pretium nulla a orci facilisis, vitae efficitur lectus molestie. </p>
     <p>Donec rhoncus felis eu erat pharetra commodo. Suspendisse dui elit, eleifend sit amet velit venenatis, feugiat viverra libero. 
          Sed maximus quam est, ultricies blandit leo porta condimentum. Aliquam erat volutpat. Nunc massa turpis, vestibulum in eros malesuada, ornare venenatis lectus.
         Nulla nec erat lorem. Vestibulum vel elit ligula. Aliquam erat volutpat. Aliquam suscipit tellus id elit sagittis, ut tempor velit finibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
         Nam pretium nulla a orci facilisis, vitae efficitur lectus molestieDonec rhoncus felis eu erat pharetra commodo. Suspendisse dui elit, eleifend sit amet velit venenatis, feugiat viverra libero. 
-        Sed maximus quam est, ultricies blandit leo porta condimentum. 
-        </p>
+        Sed maximus quam est, ultricies blandit leo porta condimentum. </p>
     <p>Donec rhoncus felis eu erat pharetra commodo. Suspendisse dui elit, eleifend sit amet velit venenatis, feugiat viverra libero. 
         Sed maximus quam est, ultricies blandit leo porta condimentum. Aliquam erat volutpat. Nunc massa turpis, vestibulum in eros malesuada, ornare venenatis lectus.
         ulla nec erat lorem. Vestibulum vel elit ligula. Aliquam erat volutpat. Aliquam suscipit tellus id elit sagittis, ut tempor velit finibus.
         Nam pretium nulla a orci facilisis, vitae efficitur lectus molestie.. </p>
+    
     <aside>In mattis dolor nec purus sagittis, in tristique lorem vulputate. 
         Ut ac arcu ac massa bibendum tempus. Donec ac molestie ante. 
         Vivamus at odio felis. Proin convallis massa arcu, a mattis massa faucibus sit amet. 
-        Curabitur ullamcorper augue quam, in mollis enim pulvinar sit amet. </aside>
-    <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.In mattis dolor nec purus sagittis, in tristique lorem vulputate. 
-        Ut ac arcu ac massa bibendum tempus.</p>
-    <h2>Podnaslov</h2>
+        Curabitur ullamcorper augue quam, in mollis enim pulvinar sit amet. </aside><br>
+    
+    <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.In mattis dolor nec purus sagittis, in tristique lorem vulputate. <p>
+    
+    <h3>Podnaslov</h3><br>
+    
     <p>Donec rhoncus felis eu erat pharetra commodo. Suspendisse dui elit, eleifend sit amet velit venenatis, feugiat viverra libero. 
         Sed maximus quam est, ultricies blandit leo porta condimentum. Aliquam erat volutpat. Nunc massa turpis, vestibulum in eros malesuada, ornare venenatis lectus.
         ulla nec erat lorem.</p>
+        
         <table>
-            <tr>
+            <tr class="firstRow">
                  <th>User</th>
                  <th>Ime</th>
                  <th>Prezime</th>
                 
             </tr>
             <tr>
-                 <td>jocca</td>
+                 <th>jocca</th>
                  <td>Jovan</td>
-                 <td>Canic</td>
+                 <td>Canić</td>
                  
             </tr>
             <tr>
-                 <td>mitke</td>
+                 <th>mitke</th>
                  <td>Dejan</td>
-                 <td>Mitrovic</td>
+                 <td>Mitrović</td>
                  
             </tr>
             <tr>
-                <td>aniche</td>
+                <th>aniche</th>
                  <td>Ana</td>
-                 <td>Radic</td>
+                 <td>Radić</td>
             </tr>
-
         </table>
+        
         <p>Donec rhoncus felis eu erat pharetra commodo.</p>
+        
         <div>
-            <p>Donec rhoncus felis eu erat pharetra commodo. Suspendisse dui elit, eleifend sit amet velit venenatis, feugiat viverra libero. 
-                Sed maximus quam est, ultricies blandit leo porta condimentum. m.  vitae efficitur lectus molestie..</p>
+            Donec rhoncus felis eu erat pharetra commodo. Suspendisse dui elit, eleifend sit amet velit venenatis, feugiat viverra libero. 
+                Sed maximus quam est, ultricies blandit leo porta condimentum. m.  vitae efficitur lectus molestie..
         </div>
+        
         <p>Donec rhoncus felis eu erat pharetra commodo. Suspendisse dui elit, eleifend sit amet velit venenatis, feugiat viverra libero. 
             Sed maximus quam est, ultricies blandit leo porta condimentum. . , vitae efficitur lectus molestie..</p>
+        
         <ul>
-            <li>Osnovna HTML tabela</li>
-            <li>CSS formatiranje tabela</li>
-            <li>CSS okviri</li>
+            <li>HTML: <a href="http://www.webnstudy.com/tema.php?id=osnovna-html-tabela">Osnovna HTML tabela</a></li>
+            <li>CSS: <a href="http://www.webnstudy.com/tema.php?id=css-formatiranje-tabela">CSS formatiranje tabela</a></li>
+            <li>CSS: <a href="http://www.webnstudy.com/tema.php?id=css-okviri-border">CSS okviri</a></li>
         </ul>
-        <p><b>Cestitamo, probili ste se do kraja zadatka!</b></p>
+        
+        <p class="p">Čestitamo, probili ste se do kraja zadatka!</p>
 
 </body>
 </html>
