@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists and Tables</title>
+    <style>
+       
+       .one {
+           list-style: circle;
+       }
+       
+       .two {
+           list-style: square;
+       }
+      
+       .three {
+        list-style: upper-alpha;
+       }
+
+       .four {
+           list-style: lower-roman;
+       }
+       
+       .five {
+           list-style-position: outside;
+           list-style-image: url("Webp.net-compress-image.jpg");
+           width: 200px;
+       }
+       
+       .six {
+         list-style-position: inside;
+         list-style-image: url("net-compress-image.jpg");
+         width: 200px;
+       }
+       
+       tr:nth-child(odd) {
+         background-color: rgb(167, 167, 167);
+       }
+
+       table {
+         margin: 0px auto;
+         text-align: center;
+         border: solid black;
+         padding: 20px;
+         border-spacing: 0px;
+         }
+       
+       th {
+         background-color: red;
+         color: white;
+         font-family: Arial, Helvetica, sans-serif;
+         padding: 10px;
+       }
+       
+       
+       tr:hover {
+         background-color: rgb(209, 178, 53);
+       }
+
+    </style>
+</head>
+  <body>
+    <!--prva vezba-->
+    <ul class="one">Lista za kupovinu
+        <li>ariel </li>
+        <li>hleb</li>
+        <li>sok</li>
+        <li>jaja</li>
+      </ul>
+      <ul class="two">Timski sport
+        <li>fudbal </li>
+        <li>kosarka</li>
+        <li>odbojka</li>
+        <li>rukomet</li>
+      </ul>
+
+    <ol class="three">Torta sa keksom
+        <li>Cokolada</li>
+        <li>Mleko</li>
+        <li>Keks</li>
+        <li>Secer</li>
+      </ol>
+      <ol class="four">Pojedinacni sport
+        <li>tenis</li>
+        <li>atletilka</li>
+        <li>gimnastika</li>
+        <li>pikado</li>
+      </ol>
+      <br><hr><hr><br>
+
+      <!--druga vezba-->
+      <ul class="five">Orman
+        <li>Ormani su namenjeni za smestaj odece, posteljine, knjigai drugih kucnih ili radnihariel </li>
+        <li>Najčešće se proizvode od drveta i lima a u novije vreme i od drugih savremenih</li>
+        
+      </ul>
+      
+      <ul class="six">NESTO
+        <li>sollicitudin velit maximus ullamcorper. 
+          Suspendisse sit amet nibh vel libero porta elementum non sit amet velit. 
+          Donec pharetra diam vel elit porta, sit amet congue mauris bibendum. 
+          Ut vitae tortor finibus, tincidunt purus non, facilisis felis. 
+          Nam vel dolor ac lectus dapibus finibus nec lacinia neque. 
+          Vivamus laoreet felis eget justo conse</li>
+        <li>Suspendisse sit amet nibh vel libero porta elementum non sit amet velit. 
+          Donec pharetra diam vel elit porta, sit amet congue mauris bibendum. 
+          Ut vitae tortor finibus, tincidunt purus non, facilisis felis. 
+          Nam vel dolor ac lectus dapibus finibus nec lacinia neque. 
+          Vivamus laoreet felis eget justo conse</li>
+        </ul>
+        <br><hr><hr><br>
+
+        <!--treca vezba-->
+      <table>
+        
+        <tr>
+          <th>Name</th>
+          <th>Image</th>
+          <th>RAM</th>
+          <th>Camera</th>
+          <th>Internal memory</th>
+        </tr>
+        <tr>
+         <td>Samsung</td>
+         <td><img src="https://i.gadgets360cdn.com/products/large/1532351323_635_samsung_galaxy_j8.jpg" height="100"></td>
+         <td>8 ram</td>
+         <td>40 mpx</td>
+         <td>128 gb</td>
+        </tr>
+       <tr>
+         <td>Huawei</td>
+         <td><img src="https://consumer-img.huawei.com/content/dam/huawei-cbg-site/common/mkt/plp/kv/phones/mate40-series/en/black.png" height="100"></td>
+         <td>16 ram</td>
+         <td>50 px</td>
+         <td>64 gb</td>
+         </tr>
+       <tr class="tr">
+         <td>Apple</td>
+         <td><img src="https://www.91-img.com/pictures/97744-v1-apple-iphone-7-mobile-phone-large-1.jpg?tr=q-60" height="100"></td>
+         <td>32 ram</td>
+         <td>60 mpx</td>
+         <td>256 gb</td>
+        </tr>
+        <tr>
+          <td>LG</td>
+          <td><img src="https://phoneaqua.com/products/LG-K50-Price.webp" height="100"></td>
+          <td>16 ram</td>
+          <td>60 mpx</td>
+          <td>64 gb</td>
+         </tr>
+         <tr>
+          <td>Xiaomi</td>
+          <td><img src="https://www.91-img.com/pictures/134177-v9-xiaomi-redmi-k20-mobile-phone-large-1.jpg?tr=q-60" height="100"></td>
+          <td>8 ram</td>
+          <td>60 mpx</td>
+          <td>124 gb</td>
+         </tr>
+         </table>
+         <br><hr><hr><br>
+</body>
+</html>
