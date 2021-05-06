@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox 1</title>
+    <style>
+        .parent {
+          display: flex;
+          width: 80%;
+          flex-direction: row-reverse;
+          margin: 40px auto 0 auto;
+          color:white;
+          height: 300px;
+        }
+        
+        .firsth {
+            flex: 1;
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        
+        .second {
+            flex:2;
+            background-color:#C69897;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .child1 {
+           background-color: #FCDD9E;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           flex: 1;
+        }
+        
+        .child2 {
+            background-color: #FAAB8C;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+        }
+        
+        .child3 {
+            background-color:#48464B;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+        }
+
+
+    </style>
+</head>
+<body>
+    <main class = "parent">
+        <div class = "firsth">
+        <div class="child1">1</div>
+        <div class="child2">2</div>
+        <div class="child3">3</div>
+        </div>
+        
+        <div class ="second">4</div>
+    </main>
+    
+</body>
+</html>
