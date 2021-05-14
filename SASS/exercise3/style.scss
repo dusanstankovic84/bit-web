@@ -1,0 +1,20 @@
+
+$primary-color:black;
+$main-width: 960px;
+
+@mixin flexDir($flexD,$primary-color) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $flexD;
+    color: $primary-color;
+    width: $main-width
+}
+
+.container {
+    @include flexDir(column, green);
+}
+
+.title {
+    @include flexDir(column, red);
+}
