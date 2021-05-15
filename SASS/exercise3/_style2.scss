@@ -1,0 +1,51 @@
+
+.container {
+    @include flexDir(column, green);
+}
+
+.title {
+    @include flexDir(column, red);
+}
+
+table {
+    
+    @include boxShadow();
+    
+    tr {
+        margin: 0;
+        padding: 0;
+        background: pink;
+    }
+
+    td {
+        margin:0;
+        padding: 0;
+        background: violet;
+    }
+}
+
+#footer {
+    @include textShadow();
+}
+
+h1 {
+    @include textShadow();
+}
+
+.firsth {
+    border: 2px solid red;
+    padding: 15px;
+    color: #333;
+ }
+ 
+ .second {
+     @extend.firsth;
+     border-color: blue;
+     
+ }
+ 
+ .third {
+     @extend.firsth;
+     border-color: green;
+ }
+ 

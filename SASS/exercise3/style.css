@@ -33,4 +33,43 @@
   color: red;
   width: 960px;
 }
+
+table {
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+          box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+table tr {
+  margin: 0;
+  padding: 0;
+  background: pink;
+}
+
+table td {
+  margin: 0;
+  padding: 0;
+  background: violet;
+}
+
+#footer {
+  text-shadow: 4px 4px 2px #969696;
+}
+
+h1 {
+  text-shadow: 4px 4px 2px #969696;
+}
+
+.firsth, .second, .third {
+  border: 2px solid red;
+  padding: 15px;
+  color: #333;
+}
+
+.second {
+  border-color: blue;
+}
+
+.third {
+  border-color: green;
+}
 /*# sourceMappingURL=style.css.map */

@@ -1,6 +1,8 @@
 
 $primary-color:black;
 $main-width: 960px;
+$text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+$box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
 
 @mixin flexDir($flexD,$primary-color) {
     display: flex;
@@ -8,13 +10,19 @@ $main-width: 960px;
     align-items: center;
     flex-direction: $flexD;
     color: $primary-color;
-    width: $main-width
+    width: $main-width;
 }
 
-.container {
-    @include flexDir(column, green);
+@mixin textShadow () {
+    text-shadow: $text-shadow;
 }
 
-.title {
-    @include flexDir(column, red);
+@mixin boxShadow () {
+    box-shadow: $box-shadow;
 }
+
+@import 'style2';
+
+
+
+
