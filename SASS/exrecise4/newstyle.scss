@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans:wght@300;400&display=swap');
+$bodyFont: 'Open Sans',
+sans-serif;
+$hFont:'Caveat',
+cursive;
+$fontSize:40px;
+$marginTop:40px;
+@mixin Center {
+    width: 80%;
+    margin: 0 auto;
+}
+
+@mixin Flex ($flexD,
+$flexW,
+$flexJ) {
+    display: flex;
+    justify-content: $flexJ;
+    align-items: center;
+    flex-direction: $flexD;
+    flex-wrap: $flexW;
+}
+
+body {
+    font-family: $bodyFont;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: $hFont;
+}
+
+.line {
+    display: block;
+    content: "";
+    background: yellow;
+    height: 2px;
+    width: 250px;
+}
+
+header {
+    @include Flex(column,
+    none,
+    center);
+    color: white;
+    height: 600px;
+    background-image: url(https://im-media.voltron.voanews.com/Drupal/01live-166/styles/sourced/s3/2019-04/6DD8F0FE-F989-409C-A996-22BA48C792C6.jpg?itok=NZeYkMth);
+    p {
+        font-size: $fontSize;
+        &::after {
+            @extend .line;
+            width: 300px;
+            margin: 0 auto;
+        }
+    }
+}
+
+.action {
+    @extend header;
+    h4 {
+        font-size: $fontSize;
+        &::after {
+            @extend .line;
+            width: 300px;
+            margin: 0 auto;
+        }
+    }
+    background-image: url(https://th.bing.com/th/id/OIP.mwEyLWi6G-yiUIeDjd_SOAHaEG?w=306&h=180&c=7&o=5&pid=1.7);
+}
+
+.uvod {
+    @include Flex(row,
+    none,
+    space-between);
+    margin: $marginTop;
+    padding: 20px;
+    color: black;
+    article {
+        width: 47%;
+        img {
+            width: 100%;
+        }
+        .text {
+            padding: 40px;
+            background: whitesmoke;
+        }
+    }
+}
+
+.galerija {
+    @include Flex(row,
+    wrap,
+    center);
+}
+
+footer {
+    padding: 30px 0;
+    text-align: center;
+    background: rgb(73, 71, 71);
+    a {
+        font-size: 20px;
+        margin: 0 15px;
+    }
+}

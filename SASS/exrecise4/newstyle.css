@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans:wght@300;400&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Caveat", cursive;
+}
+
+.line, header p::after, .action p::after, .action h4::after {
+  display: block;
+  content: "";
+  background: yellow;
+  height: 2px;
+  width: 250px;
+}
+
+header, .action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: none;
+      flex-wrap: none;
+  color: white;
+  height: 600px;
+  background-image: url(https://im-media.voltron.voanews.com/Drupal/01live-166/styles/sourced/s3/2019-04/6DD8F0FE-F989-409C-A996-22BA48C792C6.jpg?itok=NZeYkMth);
+}
+
+header p, .action p {
+  font-size: 40px;
+}
+
+header p::after, .action p::after {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.action {
+  background-image: url(https://th.bing.com/th/id/OIP.mwEyLWi6G-yiUIeDjd_SOAHaEG?w=306&h=180&c=7&o=5&pid=1.7);
+}
+
+.action h4 {
+  font-size: 40px;
+}
+
+.action h4::after {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.uvod {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: none;
+      flex-wrap: none;
+  margin: 40px;
+  padding: 20px;
+  color: black;
+}
+
+.uvod article {
+  width: 47%;
+}
+
+.uvod article img {
+  width: 100%;
+}
+
+.uvod article .text {
+  padding: 40px;
+  background: whitesmoke;
+}
+
+.galerija {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer {
+  padding: 30px 0;
+  text-align: center;
+  background: #494747;
+}
+
+footer a {
+  font-size: 20px;
+  margin: 0 15px;
+}
+/*# sourceMappingURL=newstyle.css.map */
