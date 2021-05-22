@@ -1,0 +1,106 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Tahoma, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.colorHeader {
+  background-color: #293c55;
+}
+
+.card > img {
+  width: 200px;
+}
+
+.navbar-toggle span {
+  color: white !important;
+  background-color: white important;
+}
+
+.navbar-light .navbar-toggler {
+  background-color: #1ca179;
+  color: white;
+}
+
+h1 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.header-main {
+  background-color: #1ca179;
+}
+
+.header-main img {
+  display: block;
+  margin: 0px auto;
+}
+
+.header-main p {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+  padding: 30px 10px 50px 10px;
+}
+
+.star, .star-white, .star-black {
+  font-size: larger;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.star-white {
+  color: white;
+}
+
+.star-black {
+  color: black;
+}
+
+.portfolio {
+  margin-bottom: 80px;
+}
+
+.portfolio img {
+  width: 100%;
+  margin: 10px auto;
+}
+
+.abouth {
+  background-color: #1ca179;
+  color: white;
+  padding: 20px;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+
+.green-send {
+  background-color: #1ca179 !important;
+  border-color: #1ca179 !important;
+}
+
+.icons {
+  display: inline-block;
+  border-style: solid;
+  border-radius: 50%;
+  border-color: white;
+  border-width: 2px;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  line-height: 45px;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: #395170;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=style.css.map */

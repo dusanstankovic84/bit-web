@@ -1,0 +1,35 @@
+.navbar-our {
+    background-color: $header-footer-color;
+}
+
+.navbar-light { 
+    .navbar-brand{
+        @include header-font($white-color, $bold-text);
+    }
+    .navbar-nav {
+        .active{
+            .nav-link {
+                @include header-font($white-color, $bold-text);
+            }
+        }
+        .nav-link{
+            @include header-font($white-color, $bold-text);
+            }
+    }
+    .navbar-toggler{
+        background-color: $main-color;
+        color: $white-color;
+        &:hover,
+        &:active,
+        &:visited,
+        &:focus{
+            background: transparent;
+        }
+    }
+   
+    
+   
+}
+
+
+

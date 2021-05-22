@@ -1,0 +1,12 @@
+@import "variables";
+
+@mixin header-font($color, $weight){
+    color: $color;
+    font-weight: $weight;
+}
+
+@mixin h3-font ($color, $weight, $size) {
+    color: $black-color;
+    font-weight: $weight;
+    font-size: $size;
+}

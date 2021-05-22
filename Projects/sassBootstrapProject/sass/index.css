@@ -1,0 +1,185 @@
+@font-face {
+  font-family: "Lato-black";
+  src: url(../fonts/Lato-Black.ttf);
+}
+
+@font-face {
+  font-family: "Lato-black-italic";
+  src: url(../fonts/Lato-BlackItalic.ttf);
+}
+
+@font-face {
+  font-family: "Lato-bold";
+  src: url(../fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Lato-bold-italic";
+  src: url(../fonts/Lato-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: "Lato-hairline";
+  src: url(../fonts/Lato-Hairline.ttf);
+}
+
+@font-face {
+  font-family: "Lato-hairline-italic";
+  src: url(../fonts/Lato-HairlineItalic.ttf);
+}
+
+@font-face {
+  font-family: "Lato-italic";
+  src: url(../fonts/Lato-Italic.ttf);
+}
+
+@font-face {
+  font-family: "Lato-light";
+  src: url(../fonts/Lato-Light.ttf);
+}
+
+@font-face {
+  font-family: "Lato-light-italic";
+  src: url(../fonts/Lato-LightItalic.ttf);
+}
+
+@font-face {
+  font-family: "Lato-regular";
+  src: url(../fonts/Lato-Regular.ttf);
+}
+
+/* Header */
+.header {
+  background-color: #2c3e50;
+}
+
+.navigationBox .logo {
+  font-family: "Lato-regular";
+}
+
+.navigationBox button {
+  background-color: #18bc9c;
+  border: 0px;
+}
+
+.navigationBox .linksBox {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.navigationBox .linksBox a {
+  font-family: "Lato-regular";
+}
+
+/* Main */
+.main {
+  background-color: #18bc9c;
+  color: white;
+}
+
+.main h1 {
+  font-family: "Lato-bold";
+}
+
+.main p {
+  font-family: "Lato-regular";
+}
+
+.main i {
+  font-size: 25px;
+}
+
+/* Portfolio */
+.portfolio {
+  text-align: center;
+}
+
+.portfolio img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.portfolio h2 {
+  font-family: "Lato-bold";
+}
+
+.portfolio i {
+  font-size: 25px;
+}
+
+/* About */
+.about {
+  text-align: center;
+  background-color: #18bc9c;
+  color: white;
+}
+
+.about h2 {
+  font-family: "Lato-bold";
+}
+
+.about i {
+  font-size: 25px;
+}
+
+.about p {
+  font-family: "Lato-regular";
+}
+
+.about button {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+}
+
+.about button i {
+  padding: 3px 5px 3px 3px;
+}
+
+/* contact */
+.contact {
+  text-align: center;
+}
+
+.contact h2 {
+  font-family: "Lato-bold";
+}
+
+.contact i {
+  font-size: 25px;
+}
+
+.btn1 {
+  text-align: left;
+}
+
+.btn1 .btn {
+  border: 0px;
+  color: white;
+  font-family: "Lato-regular";
+  background-color: #18bc9c;
+}
+
+/* Footer */
+footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+}
+
+footer h2 {
+  font-family: "Lato-bold";
+}
+
+footer p {
+  font-family: "Lato-regular";
+  font-weight: bold;
+}
+
+footer .icon {
+  font-size: 35px;
+}
+/*# sourceMappingURL=index.css.map */

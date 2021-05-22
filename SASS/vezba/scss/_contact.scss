@@ -1,0 +1,33 @@
+.contact{
+    form{
+
+        input{
+            padding-left: 10px;
+            display: block;
+            width:100%;
+            margin-bottom: 20px;
+            border-style: none;
+            border-bottom: 1px solid gray;
+
+        }
+
+        textarea {
+            width:100%;
+            padding-left: 10px;
+            margin-bottom: 20px;
+            border-style: none;
+            border-bottom: 1px solid gray;
+        }
+
+        .submit {
+            width:80px;
+            margin-bottom: 60px;
+            background-color: $main-color;
+            @include header-font ($white-color, $bold-text);
+            border-style: none;
+            border-radius: 5px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    }
+}
