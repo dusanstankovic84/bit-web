@@ -34,6 +34,7 @@ function changeClass() {
 changeClass();
 
 
+
 ///// zadnja u prvoj, traversing, acces/update /////
 
 document.addEventListener('DOMContentLoaded', function () {
