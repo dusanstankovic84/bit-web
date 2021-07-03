@@ -1,0 +1,45 @@
+/* Page */
+.page {
+    margin: 0px auto;
+    width: 900px;
+    //height: 500px;
+    //background-color: gray;
+}
+
+.header {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    //height: 30px;
+    //background-color: greenyellow;
+    .logo {
+        flex-grow: 3;
+        text-align: center;
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: grey;
+    }
+
+    .search {
+        flex-grow: 7;
+        text-align: right;
+        
+        .usersInput {
+            width: 200px;
+            height: 25px;
+            border: 1px black grey;
+            border-radius: 12px;
+            text-align: center;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: grey;
+        }
+    }
+
+}
+
+.proba {
+    height: 200px;
+    background-color:honeydew;
+}
