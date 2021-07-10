@@ -11,7 +11,7 @@ header {
   border: solid 1px black;
   border-top: none;
   border-radius: 5px;
-  padding: 0;
+  padding: 0px;
   width: 200px;
   z-index: 9;
 }
@@ -20,6 +20,8 @@ header {
   border-bottom: 1px solid black;
   text-align: left;
   text-overflow: clip;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #searchList li:hover {
