@@ -1,0 +1,67 @@
+header {
+  position: relative;
+  width: 100%;
+}
+
+#searchList {
+  position: absolute;
+  background-color: white;
+  list-style: none;
+  top: 48px;
+  border: solid 1px black;
+  border-top: none;
+  border-radius: 5px;
+  padding: 0;
+  width: 200px;
+  z-index: 9;
+}
+
+#searchList li {
+  border-bottom: 1px solid black;
+  text-align: left;
+  text-overflow: clip;
+}
+
+#searchList li:hover {
+  background-color: cyan;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.card {
+  margin: 10px;
+  color: blue;
+}
+
+.car img {
+  width: 100%;
+}
+
+.noResult {
+  text-align: center;
+  color: crimson;
+  font-size: large;
+}
+
+/*
+.searchLine {
+  position: relative;
+  z-index: 10;
+  width: 200px; 
+}
+
+.searchLine:focus {
+  box-shadow: none; 
+}
+
+
+#searchList li {
+  position: relative;
+  list-style: none;
+  background-color: white;
+  font-size: 1em;
+  width: 109%; 
+}
+
+*/
+/*# sourceMappingURL=style.css.map */
